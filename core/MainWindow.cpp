@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 
     m_webView->load(QUrl::fromLocalFile(absolutePath));
 
-    setWindowTitle("App");
+    setWindowTitle("Thinkly");
     resize(1200, 800);
 }
 
