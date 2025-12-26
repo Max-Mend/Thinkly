@@ -1,7 +1,7 @@
 # Thinkly
 
 ##  Screenshot
-![Thinkly Editor](photo/screenshot.png)
+![Thinkly Editor](photo/1.png)
 
 ##  Features
 
