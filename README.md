@@ -95,26 +95,6 @@ cmake --build build
 - **HTML/CSS/JavaScript** - Modern web technologies
 - **Material Design Icons** - Google's icon system
 
-### Architecture
-```
-program/
-├── main.cpp                 # Application entry point
-├── core/
-│   ├── MainWindow.cpp/h    # Main window and WebEngine setup
-│   ├── FileManager.cpp/h   # File I/O operations
-│   └── WebEngine.cpp/h     # Legacy web engine (unused)
-└── ui/
-    ├── index.html          # Main HTML structure
-    ├── css/
-    │   ├── main.css        # Global styles
-    │   ├── adaptability.css # Responsive layout
-    │   └── style.css       # Component styles
-    └── ts/
-        ├── main.js         # Context menu blocking
-        ├── logic.js        # Sidebar toggle logic
-        └── files.js        # File management + Qt bridge
-```
-
 ### File Storage
 - **Location**: `~/Documents/Thinkly/saves/`
 - **Format**: Plain text files with `.txt` extension
