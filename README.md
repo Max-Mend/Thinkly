@@ -252,7 +252,3 @@ See the [LICENSE](LICENSE) file for details.
 - **Material Design** - Google's design system
 - **WebEngine/Chromium** - Modern web rendering
 - Inspired by minimalist note-taking apps
-
----
-
-*Simple file management. Automatic saving. Focused writing.*
