@@ -168,10 +168,6 @@ body {
     width: 60px;
 }
 
-.sidebar.collapsed .text {
-    display: none;
-}
-
 .sidebar.collapsed .user-files {
     display: none;
 }
@@ -214,39 +210,9 @@ body {
     background: #444;
 }
 
-.sidebar .item {
-    display: flex;
-    align-items: center;
-    padding: 12px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: auto;
-    transition: background 0.2s;
-}
-
-.sidebar .item:hover {
-    background: #222;
-}
-
-.sidebar .item .icon {
-    min-width: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-.sidebar .item .text {
-    margin-left: 10px;
-    white-space: nowrap;
-    transition: opacity 0.3s;
-}
-
 @media (max-width: 600px) {
     .sidebar {
         width: 60px;
-    }
-
-    .sidebar .text {
-        display: none;
     }
 
     .sidebar .user-files {
