@@ -223,10 +223,6 @@ To contribute:
 3. Make your changes
 4. Submit a pull request
 
-##  License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ##  Requirements
 
 ### Minimum Requirements
@@ -259,6 +255,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Research ideas
 - Study guides
 - Assignment drafts
+
+
+##  License
+
+See the [LICENSE](LICENSE) file for details.
 
 ##  Author
 
