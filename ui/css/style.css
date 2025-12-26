@@ -15,7 +15,6 @@
     overflow-y: auto;
 }
 
-/* Стилізація скролбара для textarea */
 .text-area::-webkit-scrollbar {
     width: 4px;
 }
@@ -33,8 +32,27 @@
     background: #444;
 }
 
-/* Для Firefox */
 .text-area {
     scrollbar-width: thin;
     scrollbar-color: #333 transparent;
+}
+
+.welcome-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.welcome-message h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.welcome-message p {
+    font-size: 18px;
+    color: #888;
 }

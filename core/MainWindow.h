@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QtWebEngineWidgets/QWebEngineView>
 #include <QtWebEngineCore/QWebEngineProfile>
+#include <QtWebChannel/QWebChannel>
+#include "FileManager.h"
 
 class MainWindow : public QMainWindow{
     Q_OBJECT
@@ -14,6 +16,8 @@ public:
 
 private:
     QWebEngineView *m_webView;
+    QWebChannel *m_webChannel;
+    FileManager *m_fileManager;
 };
 
 #endif //MAINWINDOW_H
